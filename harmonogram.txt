@@ -1,0 +1,11 @@
+1. Zaprojektowanie interaktywnej szachownicy z możliwością ustawiania testowych figur (bez określonych ruchów) 
+i manipulowania nimi (bez ograniczeń ruchowych dla figur, ale tylko po polach i w ramach szachownicy)
+2. Dodanie domyślnych figur szachowych z ograniczeniami na ruch
+3. Dodanie prostej grafiki
+4. Dodanie algorytmu pozwalającego na grę z komputerem
+//chwilowo tylko do gier gracz-gracz:
+5. Dodanie opcji umożliwiających domyślne rozłożenie figur oraz niestandardowe, ustalone przez użytkownika
+6. Dodanie nistandardowych figur
+7. Jak się uda to dostosowanie algorytmu by mógł grać też dla niestandardowych figur i ustawień
+8. Dodanie poziomu trudności komputera
+9. Wszelkie dodatki jakie mogą się pojawić, jakaś ładniejsza szata graficzna, dziwne opcje do kliknięcia etc.
