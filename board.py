@@ -1,4 +1,8 @@
 import  chessPiece
+import  king
+import queen
+import rook
+import bishop
 
 class ChessBoard:
     actualBoard = [[]]
@@ -29,14 +33,14 @@ class ChessBoard:
             self.actualBoard[x][y] = newPiece
 
 test = ChessBoard()
-piece = chessPiece.ChessPiece(3,4)
-piece2 = chessPiece.ChessPiece(0,0,'W')
+queen = queen.Queen(5,5,'B')
+piece = chessPiece.ChessPiece(7,7,'B')
+test.addPiece(queen)
 test.addPiece(piece)
-test.addPiece(piece2)
 
 test.showBoard()
 
-moves = piece.availableMoves(test)
+moves = queen.availableMoves(test)
 print(moves)
 
 
