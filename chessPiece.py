@@ -7,6 +7,7 @@ class ChessPiece:
         self.color = color
         self.positionX = x
         self.positionY = y
+        self.moved = False
 
     def availableMoves(self, board):
         moves = []
