@@ -4,6 +4,7 @@ import queen
 import rook
 import bishop
 import knight
+import pawn
 
 
 class ChessBoard:
@@ -69,15 +70,13 @@ class ChessBoard:
 
 # do testów
 test = ChessBoard()
-knight = knight.Knight(2,2,'B')
+pawn = pawn.Pawn(2,2,'B')
+knight = knight.Knight(3,1,'W')
+test.addPiece(pawn)
 test.addPiece(knight)
 
 test.showBoard()
 
-moves = knight.availableMoves(test)
+moves = pawn.availableMoves(test)
 print(moves)
 
-if(test.isChecckedBy(0,0,'B')):
-    print(str(0) + ',' + str(0))
-if(test.isChecckedBy(0,1,'B')):
-    print(str(0) + ',' + str(1))
